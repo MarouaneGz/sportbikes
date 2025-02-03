@@ -1,0 +1,62 @@
+[
+  {
+    "id": 101,
+    "name": "Yamaha Motor Company",
+    "country": "Japan",
+    "logoUrl": "https://example.com/logos/yamaha_logo.png"
+  },
+  {
+    "id": 102,
+    "name": "Kawasaki Heavy Industries",
+    "country": "Japan",
+    "logoUrl": "https://example.com/logos/kawasaki_logo.png"
+  },
+  {
+    "id": 103,
+    "name": "Honda Motor Co., Ltd.",
+    "country": "Japan",
+    "logoUrl": "https://example.com/logos/honda_logo.png"
+  },
+  {
+    "id": 104,
+    "name": "Suzuki Motor Corporation",
+    "country": "Japan",
+    "logoUrl": "https://example.com/logos/suzuki_logo.png"
+  },
+  {
+    "id": 105,
+    "name": "BMW Motorrad",
+    "country": "Germany",
+    "logoUrl": "https://example.com/logos/bmw_logo.png"
+  },
+  {
+    "id": 106,
+    "name": "Ducati Motor Holding S.p.A.",
+    "country": "Italy",
+    "logoUrl": "https://example.com/logos/ducati_logo.png"
+  },
+  {
+    "id": 107,
+    "name": "Aprilia",
+    "country": "Italy",
+    "logoUrl": "https://example.com/logos/aprilia_logo.png"
+  },
+  {
+    "id": 108,
+    "name": "MV Agusta",
+    "country": "Italy",
+    "logoUrl": "https://example.com/logos/mv_agusta_logo.png"
+  },
+  {
+    "id": 109,
+    "name": "Triumph Motorcycles Ltd",
+    "country": "United Kingdom",
+    "logoUrl": "https://example.com/logos/triumph_logo.png"
+  },
+  {
+    "id": 110,
+    "name": "KTM AG",
+    "country": "Austria",
+    "logoUrl": "https://example.com/logos/ktm_logo.png"
+  }
+]
