@@ -44,7 +44,7 @@ const rl = readline.createInterface({
     output: process.stdout,
 });
 function displayMenu() {
-    console.log("\n🏍️ Welcome to the Motorcycle Data Viewer!");
+    console.log("\n Welcome to the Motorcycle Data Viewer!");
     console.log("1. View all manufacturers");
     console.log("2. View all motorcycles");
     console.log("3. Filter manufacturer by ID");
@@ -67,23 +67,23 @@ function handleMenu(choice) {
             rl.question("\nPlease enter the motorcycle ID: ", filterMotorcycleById);
             break;
         case "5":
-            console.log("\n👋 Goodbye!");
+            console.log("\n Goodbye!");
             rl.close();
             break;
         default:
-            console.log("\n❌ Invalid choice! Please try again.");
+            console.log("\n Invalid choice! Please try again.");
             displayMenu();
     }
 }
 function displayAllManufacturers() {
-    console.log("\n🏢 List of Motorcycle Manufacturers:\n");
+    console.log("\n List of Motorcycle Manufacturers:\n");
     manufacturers_json_1.default.forEach((m) => {
         console.log(`- ${m.name} (ID: ${m.id})`);
     });
     displayMenu();
 }
 function displayAllMotorcycles() {
-    console.log("\n🏍️ List of Motorcycles:\n");
+    console.log("\n List of Motorcycles:\n");
     sportbikes_json_1.default.forEach((m) => {
         console.log(`- ${m.name} (ID: ${m.id})`);
     });
@@ -93,11 +93,11 @@ function filterManufacturerById(input) {
     const id = parseInt(input.trim());
     const manufacturer = manufacturers_json_1.default.find((m) => m.id === id);
     if (!manufacturer) {
-        console.log(`\n❌ No manufacturer found with ID: ${id}`);
+        console.log(`\n No manufacturer found with ID: ${id}`);
     }
     else {
         console.log(`
-🏢 ${manufacturer.name} (ID: ${manufacturer.id})
+ ${manufacturer.name} (ID: ${manufacturer.id})
   - Country: ${manufacturer.country}
   - Founded: ${manufacturer.founded}
   - Logo: ${manufacturer.logoUrl}
@@ -109,11 +109,11 @@ function filterMotorcycleById(input) {
     const id = parseInt(input.trim());
     const motorcycle = sportbikes_json_1.default.find((m) => m.id === id);
     if (!motorcycle) {
-        console.log(`\n❌ No motorcycle found with ID: ${id}`);
+        console.log(`\n No motorcycle found with ID: ${id}`);
     }
     else {
         console.log(`
-🏍️ ${motorcycle.name} (ID: ${motorcycle.id})
+ ${motorcycle.name} (ID: ${motorcycle.id})
   - Description: ${motorcycle.description}
   - Engine Capacity: ${motorcycle.engineCapacity}cc
   - Active: ${motorcycle.isActive ? "Yes" : "No"}

@@ -2,9 +2,9 @@
     "name": "motorcycle-app",
     "version": "1.0.0",
     "description": "A TypeScript console app",
-    "main": "dist/app.js",
+    "main": "dist/data/app.js",
     "scripts": {
-        "start": "node dist/app.js",
+        "start": "node dist/data/app.js",
         "build": "tsc"
     },
     "devDependencies": {
