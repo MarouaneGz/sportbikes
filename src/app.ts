@@ -66,7 +66,7 @@ function filterManufacturerById(input: string) {
     console.log(`\nNo manufacturer found with ID: ${id}`);
   } else {
     console.log(`
-🏢 ${manufacturer.name} (ID: ${manufacturer.id})
+ ${manufacturer.name} (ID: ${manufacturer.id})
   - Country: ${manufacturer.country}
   - Founded: ${manufacturer.founded}
   - Logo: ${manufacturer.logoUrl}
