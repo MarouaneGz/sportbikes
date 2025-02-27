@@ -1,0 +1,25 @@
+{
+    "name": "motorcycle-app",
+    "version": "1.0.0",
+    "description": "A TypeScript console app",
+    "main": "dist/app.js",
+    "scripts": {
+        "start": "node dist/app.js",
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "@types/node": "^18.19.76",
+        "typescript": "^5.7.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MarouaneGz/sportbikes.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/MarouaneGz/sportbikes/issues"
+    },
+    "homepage": "https://github.com/MarouaneGz/sportbikes#readme"
+}
